@@ -3,7 +3,7 @@ version: '3'
 services:
     laravel.test:
         build:
-            context: ./vendor/laravel/sail/runtimes/8.0
+            context: ./docker/8.0
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
@@ -20,6 +20,7 @@ services:
         depends_on:
             - mysql
             - redis
+            - mongo
             # - selenium
     # selenium:
     #     image: 'selenium/standalone-chrome'
@@ -51,6 +52,17 @@ services:
             - 'sailredis:/data'
         networks:
             - sail
+    mongo:
+        image: mongo:latest
+        ports:
+            - 27018:27017
+        environment:
+          MONGO_INITDB_ROOT_USERNAME: user
+          MONGO_INITDB_ROOT_PASSWORD: password
+        volumes:
+            - 'sailmongo:/data/db'
+        networks:
+            - sail
     # memcached:
     #     image: 'memcached:alpine'
     #     ports:
@@ -71,4 +83,6 @@ volumes:
     sailmysql:
         driver: local
     sailredis:
+        driver: local
+    sailmongo:
         driver: local
