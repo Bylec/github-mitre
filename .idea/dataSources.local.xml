@@ -22,7 +22,10 @@
       <user-name>user</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="@" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="mitre" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8e377ae-a052-4e9f-87a4-3f84bf90d5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7c09057e-cb3f-4dc7-a448-ec13a5ecae66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7c09057e-cb3f-4dc7-a448-ec13a5ecae66/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Commands/FetchMitreData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/7.4/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/7.4/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/7.4/start-container" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/7.4/supervisord.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/8.0/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/8.0/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/8.0/start-container" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/8.0/supervisord.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/github_mitre.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github_mitre.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/FetchMitreData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/FetchMitreData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +128,9 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/mongodb" />
+      <path value="$PROJECT_DIR$/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/vendor/mongodb/mongodb" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mbpXECNiuKNHnljG97d5XH8n04" />
@@ -176,7 +164,7 @@
       <updated>1609772181474</updated>
       <workItem from="1609772183194" duration="4945000" />
       <workItem from="1609955332111" duration="3064000" />
-      <workItem from="1610039051695" duration="4691000" />
+      <workItem from="1610039051695" duration="6246000" />
     </task>
     <servers />
   </component>

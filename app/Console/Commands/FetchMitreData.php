@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Test;
 use Illuminate\Console\Command;
 
 class FetchMitreData extends Command
@@ -37,13 +38,17 @@ class FetchMitreData extends Command
      */
     public function handle()
     {
-        $file = file_get_contents("https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json");
-        $array = json_decode($file,true);
+//        $file = file_get_contents("https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json");
+//        $array = json_decode($file,true);
+//
+//        $collection = collect($array["objects"]);
+//
+//        $collectionGrouped = $collection->groupBy("type");
+//
+//        dd($collectionGrouped->keys());
 
-        $collection = collect($array["objects"]);
-
-        $collectionGrouped = $collection->groupBy("type");
-
-        dd($collectionGrouped->keys());
+        Test::create([
+            "test" => "test"
+        ]);
     }
 }
