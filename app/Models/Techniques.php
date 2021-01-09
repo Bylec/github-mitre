@@ -4,12 +4,9 @@ namespace App\Models;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 
-class Test extends Model
+class Techniques extends Model
 {
     protected $connection = 'mongodb';
-    protected $collection = 'data';
 
-    protected $fillable = [
-        'test',
-    ];
+    protected $guarded = [];
 }
