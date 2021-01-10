@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e377ae-a052-4e9f-87a4-3f84bf90d5b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/Mongo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/Mongo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/62eee6a2-252f-4564-97a8-5b7a02d1b7f0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/62eee6a2-252f-4564-97a8-5b7a02d1b7f0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +156,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/EnterpriseSourceMock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -160,6 +164,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tests/EnterpriseSourceMock" />
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
@@ -186,6 +191,7 @@
       <workItem from="1610039051695" duration="9660000" />
       <workItem from="1610218677197" duration="11447000" />
       <workItem from="1610275149357" duration="22373000" />
+      <workItem from="1610304132194" duration="626000" />
     </task>
     <servers />
   </component>

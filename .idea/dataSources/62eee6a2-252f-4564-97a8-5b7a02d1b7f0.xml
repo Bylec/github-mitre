@@ -6,10 +6,10 @@
     </root>
     <schema id="2" parent="1" name="admin"/>
     <schema id="3" parent="1" name="config"/>
-    <schema id="4" parent="1" name="local"/>
-    <schema id="5" parent="1" name="mitre"/>
-    <table id="6" parent="5" name="tactics"/>
-    <table id="7" parent="5" name="techniques"/>
+    <schema id="4" parent="1" name="data"/>
+    <schema id="5" parent="1" name="local"/>
+    <table id="6" parent="4" name="tactics"/>
+    <table id="7" parent="4" name="techniques"/>
     <column id="8" parent="6" name="_id">
       <DataType>ObjectId(0)|12s</DataType>
     </column>
