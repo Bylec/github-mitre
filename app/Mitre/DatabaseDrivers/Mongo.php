@@ -2,8 +2,7 @@
 
 namespace App\Mitre\DatabaseDrivers;
 
-use App\Models\Tactics;
-use App\Models\Techniques;
+use App\Services\MitreServiceInterface;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
@@ -15,13 +14,10 @@ class Mongo implements DatabaseDriverInterface
      */
     public function getDataSaved(): array
     {
+        $mitreService = app(MitreServiceInterface::class);
         return [
-            'tactics' => Cache::rememberForever('tactics_all', function () {
-                return Tactics::all();
-            }),
-            'techniques' => Cache::rememberForever('techniques_all', function () {
-                return Techniques::all();
-            }),
+            'tactics' => $mitreService->getAllTactics(),
+            'techniques' => $mitreService->getAllTechniques()
         ];
     }
 

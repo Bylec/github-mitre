@@ -8,5 +8,7 @@ class Techniques extends Model
 {
     protected $connection = 'mongodb';
 
+    protected $primaryKey = 'id';
+
     protected $guarded = [];
 }

@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::prefix("mitre")->group(function($api) {
+    $api->get("tactics/all", "App\Http\Controllers\ApiMitreController@allTactics");
+    $api->get("techniques/all", "App\Http\Controllers\ApiMitreController@allTechinques");
+    $api->get("techniques/{id}", "App\Http\Controllers\ApiMitreController@singleTechnique");
 });
-
-Route::get('test', 'App\Http\Controllers\IndexController@index');

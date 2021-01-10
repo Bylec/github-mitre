@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+use App\Services\MitreService;
+use App\Services\MitreServiceInterface;
+use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +16,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(
+            MitreServiceInterface::class,
+            MitreService::class
+        );
     }
 
     /**
@@ -23,6 +29,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        JsonResource::withoutWrapping();
     }
 }

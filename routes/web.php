@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "App\Http\Controllers\MitreController@index");
+Route::get('tactic/{shortName}', "App\Http\Controllers\MitreController@tactic");
+Route::get('technique/{id}', "App\Http\Controllers\MitreController@technique");
+Route::post('technique/search', "App\Http\Controllers\MitreController@searchTechnique");
