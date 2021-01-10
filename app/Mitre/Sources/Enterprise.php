@@ -12,7 +12,11 @@ class Enterprise implements DataSourceInterface
     public function prepareData(): array
     {
         try {
-            $file = file_get_contents("https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json");
+            $enterpriseDataUrl = config('mitre.enterprise_url');
+            if (!$enterpriseDataUrl) {
+                throw new Exception("No source data provided.");
+            }
+            $file = file_get_contents($enterpriseDataUrl);
             $allEnterpriseData = json_decode($file,true);
             $objectsEnterpriseData = collect($allEnterpriseData["objects"]);
 
