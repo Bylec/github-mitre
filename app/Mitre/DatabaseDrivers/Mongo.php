@@ -16,8 +16,12 @@ class Mongo implements DatabaseDriverInterface
     {
         $mitreService = app(MitreServiceInterface::class);
         return [
-            'tactics' => $mitreService->getAllTactics(),
-            'techniques' => $mitreService->getAllTechniques()
+            'tactics' => Cache::rememberForever('tactics_all', function() use ($mitreService) {
+                return $mitreService->getAllTactics();
+            }),
+            'techniques' => Cache::rememberForever('techniques_all', function() use ($mitreService) {
+                return $mitreService->getAllTechniques();
+            }),
         ];
     }
 
