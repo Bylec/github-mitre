@@ -13,11 +13,14 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <form action="{{url('/technique/search')}}" method="POST" class="form-inline my-2 my-lg-0">
             @csrf
-            <input name="technique_name" class="form-control mr-sm-2" type="search" placeholder="Search technique" aria-label="Search">
+            <input name="technique_name" class="form-control mr-sm-2" type="search" placeholder="Search techniques" aria-label="Search">
             <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
         </form>
     </nav>
-    @yield('content')
+    <div class="row align-items-start">
+        @include('tactics', ['tactics' => $tactics])
+        @yield('content')
+    </div>
 </div>
 </body>
 </html>

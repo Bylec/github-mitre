@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e377ae-a052-4e9f-87a4-3f84bf90d5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiMitreController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MitreController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/SearchTechniques.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/TacticResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/TechniqueResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/MitreService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/MitreServiceInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tactic.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tactics.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/technique.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/github_mitre.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github_mitre.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/Mongo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/Mongo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Techniques.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Techniques.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MitreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MitreController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +184,7 @@
       <workItem from="1609955332111" duration="3064000" />
       <workItem from="1610039051695" duration="9660000" />
       <workItem from="1610218677197" duration="11447000" />
-      <workItem from="1610275149357" duration="16657000" />
+      <workItem from="1610275149357" duration="17661000" />
     </task>
     <servers />
   </component>

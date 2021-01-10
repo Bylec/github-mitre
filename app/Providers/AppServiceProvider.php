@@ -30,5 +30,12 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         JsonResource::withoutWrapping();
+
+        view()->composer([
+            'app'
+        ], function ($view) {
+            $tacticsService = app(MitreServiceInterface::class);
+            view()->share('tactics', $tacticsService->getAllTactics());
+        });
     }
 }
