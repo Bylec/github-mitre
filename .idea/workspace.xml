@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e377ae-a052-4e9f-87a4-3f84bf90d5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Mitre/Comparators/AbstractComparator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/Comparators/TacticsComparator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/Comparators/TechniquesComparator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/DatabaseDriverInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/Mongo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/Mysql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/MitreDataUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/Sources/DataSourceInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/Sources/Enterprise.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mitre/Sources/Mobile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Tactics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Techniques.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/62eee6a2-252f-4564-97a8-5b7a02d1b7f0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/62eee6a2-252f-4564-97a8-5b7a02d1b7f0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Commands/FetchMitreData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/FetchMitreData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/Mongo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mitre/DatabaseDrivers/Mongo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +178,7 @@
       <workItem from="1609955332111" duration="3064000" />
       <workItem from="1610039051695" duration="9660000" />
       <workItem from="1610218677197" duration="11447000" />
+      <workItem from="1610275149357" duration="1207000" />
     </task>
     <servers />
   </component>
@@ -208,5 +196,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Mitre/Sources/Enterprise.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

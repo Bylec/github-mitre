@@ -23,7 +23,7 @@ class FetchMitreData extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Updates Mitre Enterprise data.';
 
     /**
      * Create a new command instance.

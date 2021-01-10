@@ -13,145 +13,146 @@
     <column id="8" parent="6" name="_id">
       <DataType>ObjectId(0)|12s</DataType>
     </column>
-    <column id="9" parent="6" name="created">
+    <column id="9" parent="6" name="created_by_ref">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="10" parent="6" name="created_by_ref">
+    <column id="10" parent="6" name="description">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="11" parent="6" name="description">
-      <DataType>String(0)|12s</DataType>
-    </column>
-    <column id="12" parent="6" name="external_references">
+    <column id="11" parent="6" name="external_references">
       <DataType>list(0)|4999545s</DataType>
     </column>
-    <column id="13" parent="6" name="external_references.external_id">
+    <column id="12" parent="6" name="external_references.external_id">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="14" parent="6" name="external_references.source_name">
+    <column id="13" parent="6" name="external_references.source_name">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="15" parent="6" name="external_references.url">
+    <column id="14" parent="6" name="external_references.url">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="16" parent="6" name="id">
+    <column id="15" parent="6" name="id">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="17" parent="6" name="modified">
+    <column id="16" parent="6" name="modified">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="18" parent="6" name="name">
+    <column id="17" parent="6" name="name">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="19" parent="6" name="object_marking_refs">
+    <column id="18" parent="6" name="object_marking_refs">
       <DataType>array(0)|2003s</DataType>
     </column>
-    <column id="20" parent="6" name="type">
+    <column id="19" parent="6" name="type">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="21" parent="6" name="x_mitre_shortname">
+    <column id="20" parent="6" name="x_mitre_shortname">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="21" parent="6" name="created">
+      <Position>1</Position>
       <DataType>String(0)|12s</DataType>
     </column>
     <column id="22" parent="7" name="_id">
       <DataType>ObjectId(0)|12s</DataType>
     </column>
-    <column id="23" parent="7" name="created_by_ref">
+    <column id="23" parent="7" name="created">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="24" parent="7" name="description">
+    <column id="24" parent="7" name="created_by_ref">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="25" parent="7" name="external_references">
+    <column id="25" parent="7" name="description">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="26" parent="7" name="external_references">
       <DataType>list(0)|4999545s</DataType>
     </column>
-    <column id="26" parent="7" name="external_references.description">
+    <column id="27" parent="7" name="external_references.external_id">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="27" parent="7" name="external_references.source_name">
+    <column id="28" parent="7" name="external_references.source_name">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="28" parent="7" name="external_references.url">
+    <column id="29" parent="7" name="external_references.url">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="29" parent="7" name="id">
+    <column id="30" parent="7" name="id">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="30" parent="7" name="kill_chain_phases">
-      <DataType>list(0)|4999545s</DataType>
-    </column>
-    <column id="31" parent="7" name="name">
+    <column id="31" parent="7" name="modified">
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="32" parent="7" name="object_marking_refs">
+    <column id="32" parent="7" name="name">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="33" parent="7" name="object_marking_refs">
       <DataType>array(0)|2003s</DataType>
     </column>
-    <column id="33" parent="7" name="revoked">
-      <DataType>Boolean|12s</DataType>
-    </column>
-    <column id="34" parent="7" name="x_mitre_contributors">
-      <DataType>array(0)|2003s</DataType>
+    <column id="34" parent="7" name="type">
+      <DataType>String(0)|12s</DataType>
     </column>
     <column id="35" parent="7" name="x_mitre_system_requirements">
       <DataType>array(0)|2003s</DataType>
     </column>
-    <column id="36" parent="7" name="created">
+    <column id="36" parent="7" name="external_references.description">
       <Position>1</Position>
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="37" parent="7" name="external_references.external_id">
+    <column id="37" parent="7" name="kill_chain_phases">
       <Position>1</Position>
-      <DataType>String(0)|12s</DataType>
+      <DataType>list(0)|4999545s</DataType>
     </column>
-    <column id="38" parent="7" name="kill_chain_phases.kill_chain_name">
+    <column id="38" parent="7" name="revoked">
       <Position>1</Position>
-      <DataType>String(0)|12s</DataType>
+      <DataType>Boolean|12s</DataType>
     </column>
-    <column id="39" parent="7" name="type">
-      <Position>1</Position>
-      <DataType>String(0)|12s</DataType>
-    </column>
-    <column id="40" parent="7" name="x_mitre_data_sources">
+    <column id="39" parent="7" name="x_mitre_contributors">
       <Position>1</Position>
       <DataType>array(0)|2003s</DataType>
     </column>
-    <column id="41" parent="7" name="x_mitre_version">
+    <column id="40" parent="7" name="x_mitre_version">
       <Position>1</Position>
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="42" parent="7" name="kill_chain_phases.phase_name">
+    <column id="41" parent="7" name="kill_chain_phases.kill_chain_name">
       <Position>2</Position>
       <DataType>String(0)|12s</DataType>
     </column>
-    <column id="43" parent="7" name="x_mitre_defense_bypassed">
+    <column id="42" parent="7" name="x_mitre_data_sources">
       <Position>2</Position>
       <DataType>array(0)|2003s</DataType>
     </column>
-    <column id="44" parent="7" name="modified">
+    <column id="43" parent="7" name="kill_chain_phases.phase_name">
       <Position>3</Position>
       <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="44" parent="7" name="x_mitre_defense_bypassed">
+      <Position>3</Position>
+      <DataType>array(0)|2003s</DataType>
     </column>
     <column id="45" parent="7" name="x_mitre_detection">
-      <Position>3</Position>
+      <Position>4</Position>
       <DataType>String(0)|12s</DataType>
     </column>
     <column id="46" parent="7" name="x_mitre_effective_permissions">
-      <Position>4</Position>
-      <DataType>array(0)|2003s</DataType>
-    </column>
-    <column id="47" parent="7" name="x_mitre_impact_type">
       <Position>5</Position>
       <DataType>array(0)|2003s</DataType>
     </column>
-    <column id="48" parent="7" name="x_mitre_is_subtechnique">
+    <column id="47" parent="7" name="x_mitre_impact_type">
       <Position>6</Position>
+      <DataType>array(0)|2003s</DataType>
+    </column>
+    <column id="48" parent="7" name="x_mitre_is_subtechnique">
+      <Position>7</Position>
       <DataType>Boolean|12s</DataType>
     </column>
     <column id="49" parent="7" name="x_mitre_permissions_required">
-      <Position>7</Position>
+      <Position>8</Position>
       <DataType>array(0)|2003s</DataType>
     </column>
     <column id="50" parent="7" name="x_mitre_platforms">
-      <Position>8</Position>
+      <Position>9</Position>
       <DataType>array(0)|2003s</DataType>
     </column>
   </database-model>
